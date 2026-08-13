@@ -2,7 +2,7 @@
 
 A Geant4 simulation of cosmic muon detection in plastic scintillator, analyzed with ROOT. The core question is how detection efficiency depends on the muon's incidence angle, and what's actually driving that dependence — which turns out to be a mix of two very different effects that are easy to mix up if you're not careful: whether a muon geometrically reaches the detector at all, and whether it deposits enough energy to register once it's there.
 
-There are two related setups in this repo. `muonsim_phase2/` is the main single-layer detector with the angular and threshold studies. `muonsim_multilayer/` extends the geometry to three stacked layers to look at coincidence detection, which is how real cosmic-ray telescopes cut down on false triggers.
+There are two related setups in this repo. `single_layer/` is the main single-layer detector with the angular and threshold studies. `multilayer/` extends the geometry to three stacked layers to look at coincidence detection, which is how real cosmic-ray telescopes cut down on false triggers.
 
 ## Physics
 
